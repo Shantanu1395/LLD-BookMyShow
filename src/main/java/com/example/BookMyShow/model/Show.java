@@ -7,10 +7,8 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-@Setter
 @Getter
 @AllArgsConstructor
-@NoArgsConstructor
 public class Show {
     private String showId;
     private Movie movie;

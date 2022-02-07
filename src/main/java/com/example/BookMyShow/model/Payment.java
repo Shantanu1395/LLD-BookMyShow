@@ -10,7 +10,6 @@ import lombok.Setter;
 @Setter
 @Getter
 @AllArgsConstructor
-@NoArgsConstructor
 public class Payment {
     private String transactionId;
     private int amount;
